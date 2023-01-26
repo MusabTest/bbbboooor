@@ -13,17 +13,17 @@ from dotenv import load_dotenv
 # ===| Variables Setup |===
 load_dotenv()
 
-TOKEN_TELEGRAM = os.getenv("5670971004:AAEueATeABhkNzcFL09FBPZhbfEsr2UDc5E")
-TOKEN_OPENAI = os.getenv("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")
-URL_IMAGES = os.getenv("https://yande.re/post.json?tags=")
-URL_FUMOS = os.getenv("https://yande.re/post.json?tags=")
+TOKEN_TELEGRAM = os.getenv("TOKEN_TELEGRAM")
+TOKEN_OPENAI = os.getenv("TOKEN_OPENAI")
+URL_IMAGES = os.getenv("URL_IMAGES")
+URL_FUMOS = os.getenv("URL_FUMOS")
 
 
 # =========================
 
 
-bot = telebot.TeleBot(5670971004:AAEueATeABhkNzcFL09FBPZhbfEsr2UDc5E)
-openai.api_key = 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
+bot = telebot.TeleBot(TOKEN_TELEGRAM)
+openai.api_key = TOKEN_OPENAI
 
 
 # ===| Log Setup |===
