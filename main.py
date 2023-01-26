@@ -15,8 +15,8 @@ load_dotenv()
 
 TOKEN_TELEGRAM = os.getenv("5670971004:AAEueATeABhkNzcFL09FBPZhbfEsr2UDc5E")
 TOKEN_OPENAI = os.getenv("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")
-URL_IMAGES = os.getenv("URL_IMAGES")
-URL_FUMOS = os.getenv("URL_FUMOS")
+URL_IMAGES = os.getenv("https://yande.re/post.json?tags=")
+URL_FUMOS = os.getenv("https://yande.re/post.json?tags=")
 
 
 # =========================
